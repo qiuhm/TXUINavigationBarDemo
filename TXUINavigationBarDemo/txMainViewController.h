@@ -1,5 +1,5 @@
 //
-//  txAppDelegate.h
+//  txMainViewController.h
 //  TXUINavigationBarDemo
 //
 //  Created by tingxuan.qhm on 13-12-10.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "txMainViewController.h"
 
-@interface txAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface txMainViewController : UIViewController
 
 @end

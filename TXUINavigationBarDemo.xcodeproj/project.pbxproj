@@ -19,6 +19,7 @@
 		D47A04FB1856B75F000FC724 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47A04E31856B75F000FC724 /* UIKit.framework */; };
 		D47A05031856B75F000FC724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D47A05011856B75F000FC724 /* InfoPlist.strings */; };
 		D47A05051856B75F000FC724 /* TXUINavigationBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D47A05041856B75F000FC724 /* TXUINavigationBarDemoTests.m */; };
+		D47A05111856B77B000FC724 /* txMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47A05101856B77B000FC724 /* txMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D47A05001856B75F000FC724 /* TXUINavigationBarDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXUINavigationBarDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D47A05021856B75F000FC724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D47A05041856B75F000FC724 /* TXUINavigationBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXUINavigationBarDemoTests.m; sourceTree = "<group>"; };
+		D47A050F1856B77B000FC724 /* txMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txMainViewController.h; sourceTree = "<group>"; };
+		D47A05101856B77B000FC724 /* txMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = txMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		D47A04E51856B75F000FC724 /* TXUINavigationBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D47A050E1856B76A000FC724 /* Controllers */,
 				D47A04EE1856B75F000FC724 /* txAppDelegate.h */,
 				D47A04EF1856B75F000FC724 /* txAppDelegate.m */,
 				D47A04F11856B75F000FC724 /* Images.xcassets */,
@@ -142,6 +146,15 @@
 				D47A05011856B75F000FC724 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D47A050E1856B76A000FC724 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D47A050F1856B77B000FC724 /* txMainViewController.h */,
+				D47A05101856B77B000FC724 /* txMainViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47A05111856B77B000FC724 /* txMainViewController.m in Sources */,
 				D47A04F01856B75F000FC724 /* txAppDelegate.m in Sources */,
 				D47A04EC1856B75F000FC724 /* main.m in Sources */,
 			);
